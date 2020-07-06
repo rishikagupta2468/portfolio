@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #ff9a76;
+    background-color: white;
 }
 .activate{
     background-color: #fa7d09;
@@ -10,6 +10,9 @@
     font-weight: bold;
     font-size: 18px;
 }
+.container0{
+    padding: 0px;
+}
 .container1{
     padding: 2em;
     margin: 4em;
@@ -17,6 +20,22 @@
 .container2{
     padding:4em;
     background-color: #f7c5a8;
+}
+.container3{
+    padding: 2em;
+    margin: 4em;
+}
+.container4{
+    padding: 2em;
+    margin: 4em;
+}
+.container5{
+    padding: 2em;
+    margin: 4em;
+}
+.container6{
+    background-color: #ff9a76;
+    padding: 1.5em;
 }
 .card img{
     height: 20em;
@@ -48,7 +67,8 @@
 }
 .text-type{
   padding: 20px;
-  text-align: center;   
+  text-align: center; 
+  color:black;  
 }
 .content{
     padding: 3em;
@@ -57,7 +77,7 @@
     box-shadow: 0px 0px 20px #ff9a76;
 }
 
-.gallery-title
+.text-orange
 {
     font-size: 36px;
     color: #fa7d09;
@@ -95,4 +115,74 @@
     width: 20em;
     padding: 1em;
 }
+.icon{
+    font-size:4em;
+    margin: 0.7em;
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 2em;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 20%;
+    margin-top: -7%;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color:#fa7d09;
+}
+.btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #fa7d09;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.contact{
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    display:block;
+    color: #fa7c09;
+    font-weight: 600;
+    background: #fff;
+    cursor: pointer;
+    margin: 2em;
+    margin-left: 20%;
+    font-size: 1.5em;
+    transition: transform .4s;
+}
+.contact:hover{
+    color: #ff9a76;
+    box-shadow: 0px 0px 20px #f7c5a8;
+    text-decoration: none;
+    transform: scale(1.05);
+}
 
+.contact-details{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 2em;
+}
