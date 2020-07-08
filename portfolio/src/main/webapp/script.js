@@ -1,4 +1,5 @@
- $(document).ready(function(e) {   
+ $(document).ready(function(e) {  
+    $('#nav-placeholder').load('nav_bar.html'); 
     $('.navbar-brand').click(function(){
         $('#about').click();
     });

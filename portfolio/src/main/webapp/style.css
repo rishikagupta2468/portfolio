@@ -44,7 +44,6 @@
   background-image: url("images/coding.JPG");
   height: 100%; 
   padding: 20em;
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,4 +184,46 @@
     margin-bottom: 5%;
     width: 70%;
     border-radius: 2em;
+}
+
+
+/************************************<<<<< PROJECTS >>>>>*************************************/
+.experience{
+    background-color: #ff9a76;
+    margin: 10%;
+    padding: 2em;
+}
+.project{
+    margin: 2em;
+    padding: 2em;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.github{
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    background: #fa7c09;
+    float: right;
+    cursor: pointer;
+    padding: .5em;
+    transition: transform .4s;
+}
+.github:hover{
+    background: #ff9a76;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.02);
+}
+.text-muted{
+    float: left;
+}
+.img-square-wrapper img{
+    width: 22em;
+    height: 17em;
 }
