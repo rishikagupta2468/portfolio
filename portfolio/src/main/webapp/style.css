@@ -1,10 +1,6 @@
 .navbar{
     background-color: white;
 }
-.activate{
-    background-color: #fa7d09;
-    border-radius: 10px;
-}
 .nav-link{
     padding: 5px;
     font-weight: bold;
@@ -30,10 +26,6 @@
     margin: 4em;
 }
 .container5{
-    padding: 2em;
-    margin: 4em;
-}
-.container6{
     background-color: #ff9a76;
     padding: 1.5em;
 }
@@ -59,7 +51,7 @@
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
+  top: 25em;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -107,7 +99,9 @@
 {
     width: 100%;
 }
-
+.gallery_main{
+    text-align: center;
+}
 .gallery_product
 {
     margin-bottom: 30px;
