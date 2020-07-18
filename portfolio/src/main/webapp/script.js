@@ -18,6 +18,10 @@
             $('.filter').filter('.'+value).show(1000);        
         }
     });
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 28.621271, lng: 77.061325},
+        zoom: 8
+    });
     $("a").on('click', function(event) {
         if (this.hash !== "") {
             event.preventDefault();

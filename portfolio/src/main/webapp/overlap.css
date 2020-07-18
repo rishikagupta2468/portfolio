@@ -2,3 +2,9 @@
     background-color: #fa7d09;
     border-radius: 10px;
 }
+#map {
+    border-radius: 1.5em;
+    margin-right: 3em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
